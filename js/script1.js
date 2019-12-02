@@ -65,7 +65,8 @@ $(function() {
     //         return index % 3 === 1;
     //     })
     //     .css("background-color", "rgba(180, 180, 30, 0.8)");
-    $("li")
-        .not("#list ul li")
-        .css("background-color", "rgba(180, 180, 30, 0.8)");
+    // $("li")
+    //     .not("#list ul li")
+    //     .css("background-color", "rgba(180, 180, 30, 0.8)");
+    $("ul ul:first").append("<li> new item</li>");
 });
