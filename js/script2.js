@@ -23,5 +23,21 @@ $(function () {
     // $(".green-box").last().after("<div class='blue-box'>Blue Box 2</div>");
     // $(".blue-box").last().after("<div class='red-box'>Red Box 2</div");
 
-    $("li").replaceWith("<li>replaced</li>");
+    // $("li").replaceWith("<li>replaced</li>");
+    // $("li").replaceWith(function () {
+    //     return "<li>replaced with function</li>";
+    // });
+    // var firstItem = $("li:first");
+    // $("p").replaceWith(firstItem);
+
+    // $(".red-box, .blue-box").replaceWith("<div class='green-box'>Green</div>");
+
+    // $('li').remove();
+    // $("form").children().not("input:text, textarea, br").remove();
+
+    // var detachedListItem = $("li").detach();
+    // $("#content").append(detachedListItem);
+
+    // $("p:first").empty();
+    $(".red-box, .green-box, .blue-box").empty();
 });
